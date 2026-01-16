@@ -86,15 +86,15 @@ Outcome:
 You should be able to justify when to choose each approach intentionally.
 ________________________________________
 
-Practice Set 3 — Styling and Encapsulation
+## Practice Set 3 — Styling and Encapsulation
 
-Practice Prompt 5 — Why Styles Are Scoped by Default
+### Practice Prompt 5 — Why Styles Are Scoped by Default
 
-Ask:
+**Ask**:
 
 “Why does Angular scope component styles by default instead of letting CSS cascade freely?”
 
-Reflect on:
+**Reflect on**:
 
 •	CSS leakage problems in large applications
 
@@ -102,32 +102,32 @@ Reflect on:
 
 •	How this aligns with component-based architecture
 
-Outcome:
+**Outcome**:
 
 You should understand style scoping as a defensive design choice, not a limitation.
 ________________________________________
 
-Practice Prompt 6 — Component as a Visual Boundary
+### Practice Prompt 6 — Component as a Visual Boundary
 
-Ask:
+**Ask**:
 
 “How does Angular’s styling model reinforce the idea of components as independent UI units?”
 
-Outcome:
+**Outcome**:
 
 You should connect styling encapsulation to maintainability and long-term stability.
 
 ________________________________________
 
-Practice Set 4 — Using Components (Composition & Imports)
+## Practice Set 4 — Using Components (Composition & Imports)
 
-Practice Prompt 7 — Why Imports Are Explicit
+### Practice Prompt 7 — Why Imports Are Explicit
 
-Ask:
+**Ask**:
 
 “Why must a component explicitly import other components it uses?”
 
-Think about:
+**Think about**:
 
 •	Dependency visibility
 
@@ -135,18 +135,18 @@ Think about:
 
 •	Making component dependencies auditable
 
-Outcome:
+**Outcome**:
 
 You should view the imports array as a dependency contract, not boilerplate.
 ________________________________________
 
-Practice Prompt 8 — Standalone Components vs NgModules
+### Practice Prompt 8 — Standalone Components vs NgModules
 
-Ask:
+**Ask**:
 
 “What problem do standalone components solve compared to NgModules?”
 
-Analyze:
+**Analyze**:
 
 •	Cognitive load
 
@@ -154,21 +154,21 @@ Analyze:
 
 •	How this change reflects Angular’s evolution
 
-Outcome:
+**Outcome**:
 
 You should understand standalone components as a move toward simpler mental models.
 
 ________________________________________
+ 
+## Practice Set 5 — Rendering & the DOM
 
-Practice Set 5 — Rendering & the DOM
+### Practice Prompt 9 — Host Element vs View
 
-Practice Prompt 9 — Host Element vs View
-
-Ask:
+**Ask**:
 
 “Why does Angular distinguish between a component’s host element and its view?”
 
-Explore:
+**Explore**:
 
 •	DOM ownership
 
@@ -176,19 +176,19 @@ Explore:
 
 •	Why this distinction matters for styling, queries, and DI
 
-Outcome:
+**Outcome**:
 
 You should be able to clearly explain what Angular creates vs what you write.
 
 ________________________________________
 
-Practice Prompt 10 — Components as Instances
+### Practice Prompt 10 — Components as Instances
 
-Ask:
+**Ask**:
 
 “Why does Angular create a new component instance for each matching selector in the DOM?”
 
-Consider:
+**Consider**:
 
 •	Encapsulation of state
 
@@ -196,21 +196,21 @@ Consider:
 
 •	How this mirrors object-oriented principles
 
-Outcome:
+**Outcome**:
 
 You should see Angular components as stateful objects mapped onto the DOM.
 
 ________________________________________
 
-Practice Set 6 — Application as a Component Tree
+## Practice Set 6 — Application as a Component Tree
 
-Practice Prompt 11 — Thinking in Trees
+### Practice Prompt 11 — Thinking in Trees
 
-Ask:
+**Ask**:
 
 “Why is Angular best understood as a tree of components rather than a collection of pages?”
 
-Reflect on:
+**Reflect on**:
 
 •	Parent-child relationships
 
@@ -218,41 +218,41 @@ Reflect on:
 
 •	Why this mental model scales better than page-based thinking
 
-Outcome:
+**Outcome**:
 
 You should naturally describe an Angular app as a hierarchical composition, not flat screens.
 
 ________________________________________
 
-Practice Prompt 12 — Why the Tree Matters Later
+## Practice Prompt 12 — Why the Tree Matters Later
 
-Ask:
+**Ask**:
 
 “Which Angular features become easier to understand once you think in terms of a component tree?”
 
-Hint:
+**Hint**:
 
 Dependency injection, queries, lifecycle hooks, change detection.
 
-Outcome:
+**Outcome**:
 
 You should recognize the component tree as a foundational abstraction for the entire framework.
 
 ________________________________________
 
-Final Reflection — Framework Literacy
+## Final Reflection — Framework Literacy
 
-Practice Prompt 13 — Beyond Syntax
+### Practice Prompt 13 — Beyond Syntax
 
-Ask:
+**Ask**:
 
 “How does Angular’s component model balance structure, flexibility, and long-term maintainability?”
 
-Goal:
+**Goal**:
 
 Articulate why Angular components look the way they do — even if another framework chooses differently.
 
-Outcome:
+**Outcome**:
 
 You move from Angular user → Angular reasoner.
 
