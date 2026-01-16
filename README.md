@@ -69,11 +69,11 @@ ________________________________________
 
 ### Practice Prompt 4 — Inline vs External Templates
 
-Ask:
+**Ask**:
 
 “What trade-offs exist between inline templates/styles and external files?”
 
-Weigh:
+**Weigh**:
 
 •	Local readability vs file separation
 
@@ -81,7 +81,7 @@ Weigh:
 
 •	Team scale and ownership (designers vs developers)
 
-Outcome:
+**Outcome**:
 
 You should be able to justify when to choose each approach intentionally.
 ________________________________________
